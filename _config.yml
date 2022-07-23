@@ -3,3 +3,19 @@ plugins:
 
 postcss:
   cache: false
+        
+#contentful:
+#  spaces:
+#    - example:                    # Jekyll _data folder identifier - Required
+#        space: ENV_CONTENTFUL_SPACE_ID  # Required - should be moved to secret area
+#        access_token: ENV_CONTENTFUL_ACCESS_TOKEN# Required - should be moved to secret area
+#        destination: contentful
+
+# Generate blog pages example
+page_gen-dirs: false
+
+# page_gen:
+#  - data: 'site.data.contentful.demo.post'
+#    template: 'blog'
+#    dir: "blog"
+#    name: 'title'
