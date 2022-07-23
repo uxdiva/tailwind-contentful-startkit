@@ -2,4 +2,4 @@
 layout: base
 title: home
 ---
-hello world
+<p class="text-red-500">hello world</p>
